@@ -11,7 +11,7 @@
   
   <title>
     
-      win set 
+      windows set 
       
       
       |
@@ -135,23 +135,67 @@
   <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
   <div class="container post-details" id="post-details">
     <div class="post-content">
-      <div class="post-title">win set</div>
+      <div class="post-title">windows set</div>
       <div class="post-attach">
         <span class="post-pubtime">
           <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-          2023-12-17 10:26:27
+          2023-12-29 02:55:33
         </span>
         
       </div>
       <div class="markdown-body">
-        <h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">HTTP_PROXY    http://127.0.0.1:7890</span><br><span class="line">HTTPS_PROXY    http://127.0.0.1:7890</span><br></pre></td></tr></table></figure>
+        <h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">HTTP_PROXY    http://127.0.0.1:7890</span><br><span class="line">HTTPS_PROXY    http://127.0.0.1:7890</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="修改dnsInternet协议版本4-TCP-IPv4"><a href="#修改dnsInternet协议版本4-TCP-IPv4" class="headerlink" title="修改dns	Internet协议版本4(TCP&#x2F;IPv4)"></a>修改dns	Internet协议版本4(TCP&#x2F;IPv4)</h2><table>
+<thead>
+<tr>
+<th>阿里</th>
+<th>223.5.5.5</th>
+<th>百度</th>
+<th>180.76.76.76</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>腾讯</td>
+<td>119.29.29.29</td>
+<td>Google DNS</td>
+<td>8.8.8.8</td>
+</tr>
+<tr>
+<td>OpenDNS</td>
+<td>208.67.222.222</td>
+<td>V2EX DNS</td>
+<td>199.91.73.222</td>
+</tr>
+</tbody></table>
+<pre><code>     	
+</code></pre>
+<h2 id="git-bash添加到右键菜单"><a href="#git-bash添加到右键菜单" class="headerlink" title="git bash添加到右键菜单"></a>git bash添加到右键菜单</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">win+R输入regedit</span><br><span class="line">复制 计算机\HKEY_CLASSES_ROOT\Directory\shell\,新建项Git bash，</span><br><span class="line">点击右边默认输入&quot;Git Bash Here&quot;，右边右键新建字符串值&quot;icon&quot;,输入git bash.exe的绝对地址</span><br><span class="line">在左边Git bash右键新建项：&quot;command&quot;，点击command后，点击右边默认输入git bash.exe的绝对地址，空格 --cd=%1</span><br><span class="line"></span><br><span class="line">复制 计算机\HKEY_CLASSES_ROOT\Directory\Background\shell\跟上面一样的操作，这个不用 写 --cd=%1</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="vscode-添加到右键菜单"><a href="#vscode-添加到右键菜单" class="headerlink" title="vscode 添加到右键菜单"></a>vscode 添加到右键菜单</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">win+R输入regedit</span><br><span class="line">复制 计算机\HKEY_CLASSES_ROOT\Directory\shell\,新建项vscode，</span><br><span class="line">点击右边默认输入&quot;vscode&quot;，右边右键新建字符串值&quot;icon&quot;,输入vscode.exe的绝对地址</span><br><span class="line">在左边vscode右键新建项：&quot;command&quot;，点击command后，点击右边默认输入vscode.exe的绝对地址，空格 &quot;%V&quot;</span><br><span class="line"></span><br><span class="line">复制 计算机\HKEY_CLASSES_ROOT\Directory\Background\shell\跟上面一样的操作</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">打开文件 添加 &quot;%1&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="打开mp3文件夹或mp4文件夹卡顿"><a href="#打开mp3文件夹或mp4文件夹卡顿" class="headerlink" title="打开mp3文件夹或mp4文件夹卡顿"></a>打开mp3文件夹或mp4文件夹卡顿</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">控制台&gt;&gt;索引选项&gt;&gt;高级&gt;&gt;文件类型&gt;&gt;取消mp3和mp4的选择</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="将软件设置为开机启动"><a href="#将软件设置为开机启动" class="headerlink" title="将软件设置为开机启动"></a>将软件设置为开机启动</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">打开 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp ,复制xx.exe快捷键到这里</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="修改hosts文件"><a href="#修改hosts文件" class="headerlink" title="修改hosts文件"></a>修改hosts文件</h2><ol>
+<li>C:\Windows\System32\drivers\etc\hosts</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">#Github Hosts Start</span><br><span class="line">#Update Time: 2023-12-27</span><br><span class="line">#Project Address: https://github.com/maxiaof/github-hosts</span><br><span class="line">#Update URL: https://raw.githubusercontent.com/maxiaof/github-hosts/master/hosts</span><br><span class="line">140.82.112.26 alive.github.com</span><br><span class="line">140.82.114.26 live.github.com</span><br><span class="line">185.199.108.154 github.githubassets.com</span><br><span class="line">140.82.112.21 central.github.com</span><br><span class="line">185.199.108.133 desktop.githubusercontent.com</span><br><span class="line">185.199.108.153 assets-cdn.github.com</span><br><span class="line">185.199.111.133 camo.githubusercontent.com</span><br><span class="line">185.199.110.133 github.map.fastly.net</span><br><span class="line">146.75.121.194 github.global.ssl.fastly.net</span><br><span class="line">140.82.121.3 gist.github.com</span><br><span class="line">185.199.108.153 github.io</span><br><span class="line">140.82.121.3 github.com</span><br><span class="line">192.0.66.2 github.blog</span><br><span class="line">140.82.121.6 api.github.com</span><br><span class="line">185.199.108.133 raw.githubusercontent.com</span><br><span class="line">185.199.108.133 user-images.githubusercontent.com</span><br><span class="line">185.199.111.133 favicons.githubusercontent.com</span><br><span class="line">185.199.111.133 avatars5.githubusercontent.com</span><br><span class="line">185.199.110.133 avatars4.githubusercontent.com</span><br><span class="line">185.199.111.133 avatars3.githubusercontent.com</span><br><span class="line">185.199.110.133 avatars2.githubusercontent.com</span><br><span class="line">185.199.111.133 avatars1.githubusercontent.com</span><br><span class="line">185.199.108.133 avatars0.githubusercontent.com</span><br><span class="line">185.199.110.133 avatars.githubusercontent.com</span><br><span class="line">140.82.121.9 codeload.github.com</span><br><span class="line">3.5.29.156 github-cloud.s3.amazonaws.com</span><br><span class="line">52.217.133.201 github-com.s3.amazonaws.com</span><br><span class="line">52.217.14.180 github-production-release-asset-2e65be.s3.amazonaws.com</span><br><span class="line">52.217.201.129 github-production-user-asset-6210df.s3.amazonaws.com</span><br><span class="line">54.231.132.121 github-production-repository-file-5c1aeb.s3.amazonaws.com</span><br><span class="line">185.199.111.153 githubstatus.com</span><br><span class="line">140.82.114.18 github.community</span><br><span class="line">51.137.3.17 github.dev</span><br><span class="line">140.82.114.22 collector.github.com</span><br><span class="line">13.107.42.16 pipelines.actions.githubusercontent.com</span><br><span class="line">185.199.109.133 media.githubusercontent.com</span><br><span class="line">185.199.111.133 cloud.githubusercontent.com</span><br><span class="line">185.199.108.133 objects.githubusercontent.com</span><br><span class="line">#Github Hosts End</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>刷新DNS cmd命令 <code>ipconfig /flushdns</code></li>
+</ol>
 
       </div>
       
         <div class="prev-or-next">
           <div class="post-foot-next">
             
-              <a href="/tutorial/Some%20command/" target="_self">
+              <a href="/tutorial/mi/" target="_self">
                 <i class="iconfont icon-chevronleft"></i>
                 <span>Prev</span>
               </a>
@@ -160,16 +204,11 @@
           <div class="post-attach">
             <span class="post-pubtime">
               <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-              2023-12-17 10:26:27
+              2023-12-29 02:55:33
             </span>
             
           </div>
           <div class="post-foot-prev">
-            
-              <a href="/tutorial/README111/" target="_self">
-                <span>Next</span>
-                <i class="iconfont icon-chevronright"></i>
-              </a>
             
           </div>
         </div>
